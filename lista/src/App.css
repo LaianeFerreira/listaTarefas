@@ -1,0 +1,121 @@
+body {
+  font-family: Comic Sans MS;
+  background-color: #B3E5FC;
+  padding: 30px;
+  color: #4A4A4A;
+  background-image: url('./img/fundo.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.app {
+  max-width: 600px;
+  margin: 0 auto 300px;
+  background-color: #f794b5;
+  padding: 20px 30px;
+  border-radius: 30px;
+
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+p {
+  margin: 10px 0;
+}
+
+input {
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #FFF9C4;
+  color: #4A4A4A;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  opacity: 0.8;
+  transition: .3s;
+  margin-right: 5px;
+}
+
+button:hover {
+  opacity: 1;
+}
+
+.items-lista {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #4A4A4A;
+}
+
+.itemm {
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgda (0, 0, 0, 0.1);
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  display: flex;
+
+  align-items: center;
+}
+
+.item-form {
+  padding-bottom: 1.5rem;
+
+}
+
+input,
+select {
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #DDD;
+  border-radius: 10px;
+  width: 100%;
+
+}
+
+.completar {
+  background-color: rgba(168, 234, 178, 0.888);
+}
+
+.remover {
+  background-color: #d86c6cbe;
+}
+
+
+.filtro,
+.busca {
+  border-bottom: 1px solid #4A4A4A;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+
+
+}
+
+.filtrar-opcoes {
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+}
+
+.filtrar-opcoes div {
+  flex: 1 1 0;
+}
+
+.graficoTarefas {
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  padding: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
